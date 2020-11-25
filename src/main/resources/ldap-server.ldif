@@ -1,0 +1,68 @@
+dn: dc=shpun,dc=com
+objectClass: top
+objectClass: domain
+
+dn: ou=people,dc=shpun,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: uid=zhangsan1001uid,ou=people,dc=shpun,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: zhangsan1001cn
+sn: zhangsan1001sn
+description: zhangsan1001description
+title: zhangsan1001title
+uid: zhangsan1001uid
+displayName: zhangsan1001displayName
+
+dn: uid=zhangsan1002uid,ou=people,dc=shpun,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: zhangsan1002cn
+sn: zhangsan1002sn
+description: zhangsan1002description
+title: zhangsan1002title
+uid: zhangsan1002uid
+displayName: zhangsan1002displayName
+
+dn: uid=zhangsan1003uid,ou=people,dc=shpun,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: zhangsan1003cn
+sn: zhangsan1003sn
+description: zhangsan1003description
+title: zhangsan1003title
+uid: zhangsan1003uid
+displayName: zhangsan1003displayName
+
+dn: uid=zhangsan1004uid,ou=people,dc=shpun,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: zhangsan1004cn
+sn: zhangsan1004sn
+description: zhangsan1004description
+title: zhangsan1004title
+uid: zhangsan1004uid
+displayName: zhangsan1004displayName
+
+dn: uid=zhangsan1005uid,ou=people,dc=shpun,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: zhangsan1005cn
+sn: zhangsan1005sn
+description: zhangsan1005description
+title: zhangsan1005title
+uid: zhangsan1005uid
+displayName: zhangsan1005displayName
