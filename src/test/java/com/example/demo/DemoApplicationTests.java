@@ -20,11 +20,6 @@ class DemoApplicationTests {
     }
 
     @Test
-    void test(){
-        System.out.println("测试");
-    }
-
-    @Test
     void findAll(){
 
         Iterable<Person> personIterable = personRepository.findAll();

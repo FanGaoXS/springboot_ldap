@@ -1,0 +1,43 @@
+dn: dc=com
+objectClass: top
+objectClass: domain
+
+dn: ou=admin,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: admin
+
+
+dn: ou=developer,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: developer
+
+dn: ou=tester,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: tester
+
+dn: uid=10001@admin,ou=admin,dc=com
+ObjectClass: top
+ObjectClass: organizationalPerson
+ObjectClass: person
+ObjectClass: inetOrgPerson
+cn: 10001cn
+sn: 10001sn
+
+dn: uid=10002@developer,ou=developer,dc=com
+
+dn: uid=10003@developer,ou=developer,dc=com
+
+dn: uid=10004@developer,ou=developer,dc=com
+
+dn: uid=10005@developer,ou=developer,dc=com
+
+dn: uid=10006@developer,ou=developer,dc=com
+
+dn: uid=10007@tester,ou=tester,dc=com
+
+dn: uid=10008@tester,ou=tester,dc=com
+
+dn: uid=10009@tester,ou=tester,dc=com

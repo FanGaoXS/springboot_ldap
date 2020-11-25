@@ -12,5 +12,6 @@ import org.springframework.data.ldap.repository.LdapRepository;
  */
 public interface PersonRepository extends LdapRepository<Person> {
     Person findPersonByUid(String uid);
+    Person findPersonByOrganizationalUnit();
 }
 
