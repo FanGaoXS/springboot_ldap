@@ -16,7 +16,7 @@ import javax.naming.Name;
  * @Description:
  */
 @Data
-@Entry(base = "ou=people,dc=shpun,dc=com", objectClasses = {"inetOrgPerson","organizationalPerson","person","top"})
+@Entry(base = "ou=people,dc=yaobili,dc=com", objectClasses = {"inetOrgPerson","organizationalPerson","person","top"})
 public class Person {
 
     @Id

@@ -1,5 +1,6 @@
 spring:
   ldap:
-    embedded:
-      ldif: classpath:ldap-server.ldif
-      base-dn: dc=shpun,dc=com
+    urls: ldap://192.168.44.128:389
+    base: dc=yaobili,dc=com
+    username: admin
+    password: 954278478

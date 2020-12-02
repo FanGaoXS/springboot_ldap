@@ -11,7 +11,11 @@ import org.springframework.data.ldap.repository.LdapRepository;
  * @Description:
  */
 public interface PersonRepository extends LdapRepository<Person> {
+
+    /*
+    * 通过uid查询person
+    * */
+
     Person findPersonByUid(String uid);
-    Person findPersonByOrganizationalUnit();
 }
 
