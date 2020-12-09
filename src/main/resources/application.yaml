@@ -2,5 +2,5 @@ spring:
   ldap:
     urls: ldap://192.168.44.128:389
     base: dc=yaobili,dc=com
-    username: admin
+    username: cn=admin,dc=yaobili,dc=com
     password: 954278478
